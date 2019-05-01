@@ -5,8 +5,7 @@
 jobs:
 
 - job: 'ParallelTesting'
-  pool:
-    vmImage: 'ubuntu-16.04'
+  pool: 'Hosted Ubuntu 1604'
   strategy:
     parallel: 3
 
